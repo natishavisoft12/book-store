@@ -1,0 +1,163 @@
+{ "booksData":[
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "published_year": 1925,
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "published_year": 1960,
+      "price": 12.50
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "published_year": 1949,
+      "price": 9.99
+    },
+    {
+      "id": 4,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Coming-of-age",
+      "published_year": 1951,
+      "price": 8.99
+    },
+    {
+      "id": 5,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "published_year": 1937,
+      "price": 14.99
+    },
+    {
+      "id": 6,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "published_year": 1813,
+      "price": 11.50
+    },
+    {
+      "id": 7,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "published_year": 1851,
+      "price": 13.99
+    },
+    {
+      "id": 8,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical",
+      "published_year": 1869,
+      "price": 19.99
+    },
+    {
+      "id": 9,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "genre": "Epic",
+      "published_year": -700,
+      "price": 9.49
+    },
+    {
+      "id": 10,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Psychological",
+      "published_year": 1866,
+      "price": 12.75
+    },
+    {
+      "id": 11,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Philosophical",
+      "published_year": 1880,
+      "price": 14.25
+    },
+    {
+      "id": 12,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Science Fiction",
+      "published_year": 1932,
+      "price": 10.75
+    },
+    {
+      "id": 13,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian",
+      "published_year": 1953,
+      "price": 11.99
+    },
+    {
+      "id": 14,
+      "title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "genre": "Adventure",
+      "published_year": 1605,
+      "price": 18.99
+    },
+    {
+      "id": 15,
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "published_year": 1954,
+      "price": 25.99
+    },
+    {
+      "id": 16,
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "genre": "Horror",
+      "published_year": 1818,
+      "price": 9.99
+    },
+    {
+      "id": 17,
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "genre": "Horror",
+      "published_year": 1897,
+      "price": 10.49
+    },
+    {
+      "id": 18,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "genre": "Romance",
+      "published_year": 1847,
+      "price": 10.75
+    },
+    {
+      "id": 19,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Romance",
+      "published_year": 1847,
+      "price": 10.99
+    },
+    {
+      "id": 20,
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "genre": "Historical",
+      "published_year": 1859,
+      "price": 12.49
+    }
+  ]
+  }
