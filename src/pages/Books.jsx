@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { booksData } from '../data/booksDataa';
+import { Link } from 'react-router-dom';
 
 const Books = () => {
     const [books, setBooks] = useState(booksData);
@@ -15,6 +16,7 @@ const Books = () => {
             setBooks(booksData.filter((book) => book.category === category));
         }
     };
+  
 
     return (
         <div className="bg-gray-900 min-h-screen text-white py-10">
@@ -61,6 +63,7 @@ const Books = () => {
                                 ⭐ {book.rating}
                             </span>
                         </div>
+                        <Link to={`/book/${book.id}`}>comment</Link>
                     </div>
                 ))}
             </div>

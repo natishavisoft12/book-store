@@ -11,7 +11,7 @@ const Profile = () => {
   //   bio: "A passionate book lover and software developer.",
   //   location: "New York, USA",
   // };
- console.log(user,"profile");
+
  
   return (
     <div
@@ -39,7 +39,7 @@ const Profile = () => {
         <strong className="text-blue-400">Email:</strong> {user.email}
       </p>
       <p className="text-lg text-gray-300">
-        <strong className="text-blue-400">Location:</strong> {user.location}
+        <strong className="text-blue-400">Location:</strong> Avisoft
       </p>
     </div>
   </div>

@@ -1,7 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit"
 import { topRatedBooks } from "./booksThunk"
+import { booksData } from "../data/booksDataa"
 
 const initialState ={
+     allbok:[booksData],
     bookdata:[],
     loading:false,
     error:null
@@ -9,7 +11,13 @@ const initialState ={
 const boookSlice = createSlice({
     name:"book",
     initialState,
-    reducers:{},
+    reducers:{
+        addBook:(state,actions)=>{
+            state.allbok.push(actions.payload)
+            
+              
+        }
+    },
     extraReducers:(builder)=>{
         builder
         .addCase(topRatedBooks.pending,(state)=>{

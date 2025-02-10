@@ -15,18 +15,20 @@ const Navbar = () => {
     dispatch(logout)
     navigate("/login")
   }
-  console.log(user,"navbar");
+
   
   return (
     <div className="flex justify-between items-center p-6 bg-[#FDF8EE]">
     {/* Book Store Title */}
-    <h3 className="text-3xl font-semibold text-[#333]">Book Store</h3>
+    <Link to="/"> <h3 className="text-3xl font-semibold text-[#333]">Book Store</h3></Link>
+   
     
     {/* Navigation Menu */}
     <div className="flex gap-8">
       <ul className="flex list-none space-x-8">
         <Link className="text-lg text-[#333] hover:text-[#4b8dff] cursor-pointer transition duration-300" to='/'>Home</Link>
         <Link className="text-lg text-[#333] hover:text-[#4b8dff] cursor-pointer transition duration-300" to="/top">Top Rated</Link>
+        <Link className="text-lg text-[#333] hover:text-[#4b8dff] cursor-pointer transition duration-300" to="/contect">Contect us</Link>
         <Link className="text-lg text-[#333] hover:text-[#4b8dff] cursor-pointer transition duration-300 " to='/books'>Books</Link>
       </ul>
     </div>
@@ -50,7 +52,7 @@ const Navbar = () => {
 ):(
   <Btn text="Sign in" click="login" className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600" />
 )  }
-                                                                                                
+
 </div>
  
   )
